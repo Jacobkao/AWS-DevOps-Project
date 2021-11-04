@@ -6,3 +6,6 @@
 •	Applications run in docker containers to prevent errors and inconsistencies.
 •	Automate AWS Code Pipeline which includes source, build, deployment, and manual approval when making new changes on the S3 bucket for ECS web service.
 •	Infrastructure and application are under continuous monitoring with notification mechanism.
+
+
+By this time the Custom code which we have in S3 is pushed to the ECS and served to the users through ELB as shown below.
